@@ -10,6 +10,8 @@
 		94AAABBC1D6DEE65004335CC /* SkyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AAABBA1D6DEE65004335CC /* SkyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94AAABCF1D6DEF15004335CC /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AAABCE1D6DEF15004335CC /* Mutex.swift */; };
 		94AAABD11D6DEF58004335CC /* Locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AAABD01D6DEF58004335CC /* Locking.swift */; };
+		94AAABDB1D6E0E0F004335CC /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AAABDA1D6E0E0F004335CC /* URLResponse.swift */; };
+		94AAABDE1D6E126D004335CC /* ErrorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AAABDD1D6E126D004335CC /* ErrorBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		94AAABBB1D6DEE65004335CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94AAABCE1D6DEF15004335CC /* Mutex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutex.swift; sourceTree = "<group>"; };
 		94AAABD01D6DEF58004335CC /* Locking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locking.swift; sourceTree = "<group>"; };
+		94AAABDA1D6E0E0F004335CC /* URLResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
+		94AAABDD1D6E126D004335CC /* ErrorBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		94AAABB91D6DEE64004335CC /* SkyUtils */ = {
 			isa = PBXGroup;
 			children = (
+				94AAABDC1D6E1258004335CC /* Errors */,
+				94AAABD91D6E0DFE004335CC /* Networking */,
 				94AAABD21D6DF2F5004335CC /* Locks */,
 				94AAABC21D6DEE6C004335CC /* Support Files */,
 			);
@@ -72,6 +78,23 @@
 				94AAABCE1D6DEF15004335CC /* Mutex.swift */,
 			);
 			name = Locks;
+			sourceTree = "<group>";
+		};
+		94AAABD91D6E0DFE004335CC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				94AAABDA1D6E0E0F004335CC /* URLResponse.swift */,
+			);
+			name = Networking;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		94AAABDC1D6E1258004335CC /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				94AAABDD1D6E126D004335CC /* ErrorBuilder.swift */,
+			);
+			name = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +179,8 @@
 			files = (
 				94AAABCF1D6DEF15004335CC /* Mutex.swift in Sources */,
 				94AAABD11D6DEF58004335CC /* Locking.swift in Sources */,
+				94AAABDE1D6E126D004335CC /* ErrorBuilder.swift in Sources */,
+				94AAABDB1D6E0E0F004335CC /* URLResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

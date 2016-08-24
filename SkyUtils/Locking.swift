@@ -7,13 +7,13 @@
 //
 
 public protocol Locking {
-    func lock()
-    func unlock()
-    func tryLock() -> Bool
+    mutating func lock()
+    mutating func unlock()
+    mutating func tryLock() -> Bool
 }
 
 public extension Locking {
-    func sync<T>(_ block: (Void) throws -> (T)) rethrows -> T {
+    mutating func sync<T>(_ block: (Void) throws -> (T)) rethrows -> T {
         self.lock()
         defer { self.unlock() }
         return try block()
