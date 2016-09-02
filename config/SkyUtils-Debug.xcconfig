@@ -1,0 +1,7 @@
+//
+//  Config for SkyUtils - Debug
+//  Created for Xcode 8.0 on 2016/09/01
+//
+
+#include "SkyUtils-Base.xcconfig"
+

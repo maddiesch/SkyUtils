@@ -1,0 +1,31 @@
+//
+//  Config for SkyUtils - Base Configuration
+//  Created for Xcode 8.0 on 2016/09/01
+//
+
+////////////////////////////////////////
+
+INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
+SKIP_INSTALL = YES
+
+////////////////////////////////////////
+
+DYLIB_COMPATIBILITY_VERSION = 1
+DYLIB_CURRENT_VERSION = 1
+DYLIB_INSTALL_NAME_BASE = @rpath
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+
+////////////////////////////////////////
+
+DEFINES_MODULE = YES
+INFOPLIST_FILE = SkyUtils/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = com.skylarsch.SkyUtils
+PRODUCT_NAME = $(TARGET_NAME)
+
+////////////////////////////////////////
+
+CODE_SIGN_IDENTITY =
+
+////////////////////////////////////////
+
+SWIFT_VERSION = 3.0

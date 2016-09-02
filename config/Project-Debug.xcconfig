@@ -1,0 +1,35 @@
+//
+//  Config for Project - Debug
+//  Created for Xcode 8.0 on 2016/09/01
+//
+
+#include "Project-Base.xcconfig"
+
+////////////////////////////////////////
+
+ONLY_ACTIVE_ARCH = YES
+
+////////////////////////////////////////
+
+ENABLE_TESTABILITY = YES
+
+////////////////////////////////////////
+
+GCC_OPTIMIZATION_LEVEL = 0
+
+////////////////////////////////////////
+
+ENABLE_NS_ASSERTIONS = YES
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
+
+////////////////////////////////////////
+
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+
+////////////////////////////////////////
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+
+////////////////////////////////////////
+
+MTL_ENABLE_DEBUG_INFO = YES
