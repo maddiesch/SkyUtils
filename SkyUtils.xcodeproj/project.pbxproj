@@ -11,12 +11,6 @@
 		94AAABCF1D6DEF15004335CC /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AAABCE1D6DEF15004335CC /* Mutex.swift */; };
 		94AAABD11D6DEF58004335CC /* Locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AAABD01D6DEF58004335CC /* Locking.swift */; };
 		94EA97D41D7918A70011DCC4 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA97D31D7918A70011DCC4 /* URLResponse.swift */; };
-		94EA97DD1D7922BC0011DCC4 /* Project-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94EA97D71D7922BC0011DCC4 /* Project-Base.xcconfig */; };
-		94EA97DE1D7922BC0011DCC4 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94EA97D81D7922BC0011DCC4 /* Project-Debug.xcconfig */; };
-		94EA97DF1D7922BC0011DCC4 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94EA97D91D7922BC0011DCC4 /* Project-Release.xcconfig */; };
-		94EA97E01D7922BC0011DCC4 /* SkyUtils-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94EA97DA1D7922BC0011DCC4 /* SkyUtils-Base.xcconfig */; };
-		94EA97E11D7922BC0011DCC4 /* SkyUtils-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94EA97DB1D7922BC0011DCC4 /* SkyUtils-Debug.xcconfig */; };
-		94EA97E21D7922BC0011DCC4 /* SkyUtils-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94EA97DC1D7922BC0011DCC4 /* SkyUtils-Release.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -150,7 +144,7 @@
 		94AAABAE1D6DEE64004335CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Skylar Schipper";
 				TargetAttributes = {
 					94AAABB61D6DEE64004335CC = {
@@ -182,12 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94EA97E21D7922BC0011DCC4 /* SkyUtils-Release.xcconfig in Resources */,
-				94EA97DE1D7922BC0011DCC4 /* Project-Debug.xcconfig in Resources */,
-				94EA97E01D7922BC0011DCC4 /* SkyUtils-Base.xcconfig in Resources */,
-				94EA97DD1D7922BC0011DCC4 /* Project-Base.xcconfig in Resources */,
-				94EA97DF1D7922BC0011DCC4 /* Project-Release.xcconfig in Resources */,
-				94EA97E11D7922BC0011DCC4 /* SkyUtils-Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
